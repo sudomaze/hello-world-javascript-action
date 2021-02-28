@@ -2,7 +2,7 @@ name: "Hello World"
 description: "Greet someone and record the time"
 inputs:
     github_token: # id of input
-        description: "Github Token"
+        # description: "Github Token"
         required: true
         # default: "World"
 # outputs:
