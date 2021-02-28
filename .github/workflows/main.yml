@@ -1,4 +1,8 @@
-on: [push]
+on:
+    issue_comment:
+        types: [created, edited]
+    pull_request_review:
+        types: [submitted, edited]
 
 jobs:
     hello_world_job:
